@@ -29,7 +29,7 @@ function Home() {
     title:"site",
     discription:"hello",
     img:"5"
-  }
+  },
   {
     title:"site",
     discription:"hello",
