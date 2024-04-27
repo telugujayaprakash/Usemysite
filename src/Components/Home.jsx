@@ -19,6 +19,21 @@ function Home() {
     title:"site",
     discription:"hello",
     img:"3"
+  },
+  {
+    title:"site",
+    discription:"hello",
+    img:"4"
+  },
+  {
+    title:"site",
+    discription:"hello",
+    img:"5"
+  }
+  {
+    title:"site",
+    discription:"hello",
+    img:"6"
   }
 ]
   return (
