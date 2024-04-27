@@ -18,8 +18,10 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/About-Us' element={<About />} />
           <Route path='/Contact' element={<Contact />} />
+
         </Routes>
       </BrowserRouter>
+
       </div>
     </>
   )
