@@ -1,52 +1,53 @@
 import React from 'react'
 import "./Components.css"
 import { Link } from 'react-router-dom'
+import sty from '../Assets/stories.png'
 
 function Home() {
   const sites=[
   {
     title:"site",
     discription:"hello",
-    img:"1"
+    img:sty
 
   },
   {
     title:"site",
     discription:"hello",
-    img:"2"
+    img:sty
   },
   {
     title:"site",
     discription:"hello",
-    img:"3"
+    img:sty
   },
   {
     title:"site",
     discription:"hello",
-    img:"4"
+    img:sty
   },
   {
     title:"site",
     discription:"hello",
-    img:"5"
+    img:sty
   },
   {
     title:"site",
     discription:"hello",
-    img:"6"
+    img:sty
   }
 ]
   return (
 <><div className="home">
             {sites.map((c) => {
                 return (
-                    <>
+                    <><a href='www.talesoftornado.vercel.app' target='blank'>
                         <section className="text-gray-400 bg-gray-900 body-font">
-                            <div className="container px-5 py-20 mx-auto">
+                            <div className="container px-10 py-10 mx-auto">
                                 <div className="flex flex-wrap -m-4">
                                     <div className="p-4">
                                         <div className="h-full border-2 border-gray-800 rounded-lg overflow-hidden">
-                                            <img className="lg:h-48 md:h-36 w-full object-cover object-center" src={c.img} alt="blog" />
+                                            <img className="lg:h-48 md:h-36 w-full object-cover object-center" src={c.img} alt="blog"/>
                                             <div className="p-6">
                                                 <h2 className="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">CATEGORY</h2>
                                                 <h1 className="title-font text-lg font-medium text-white mb-3">{c.title}</h1>
@@ -77,7 +78,7 @@ function Home() {
                                 </div>
                             </div>
                         </section>
-                    
+                        </a>
                     </>
                 )
             })}</div>

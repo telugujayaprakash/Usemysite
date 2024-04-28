@@ -1,21 +1,21 @@
 {
   "short_name": "UseMySite",
-  "name": "For All your simple works at our simple site",
+  "name": "All your simple works at simple space",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "icc.png",
       "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "type": "image/png"
     },
     {
-      "src": "logo192.png",
+      "src": "icc.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "icc.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "1024x1024"
     }
   ],
   "start_url": ".",

@@ -10,6 +10,6 @@
     grid-template-columns: repeat(3,calc(100vw/3));
 
 }
-.box{
+/* .box{
     margin-inline: 50px;
-}
+} */
