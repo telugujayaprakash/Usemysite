@@ -8,40 +8,45 @@ function Home() {
   {
     title:"site",
     discription:"hello",
-    img:sty
-
+    img:sty,
+    link:'https://talesoftornado.vercel.app/'
   },
   {
     title:"site",
     discription:"hello",
-    img:sty
+    img:sty,
+    link:'https://talesoftornado.vercel.app/'
   },
   {
     title:"site",
     discription:"hello",
-    img:sty
+    img:sty,
+    link:'https://talesoftornado.vercel.app/'
   },
   {
     title:"site",
     discription:"hello",
-    img:sty
+    img:sty,
+    link:'https://talesoftornado.vercel.app/'
   },
   {
     title:"site",
     discription:"hello",
-    img:sty
+    img:sty,
+    link:'https://talesoftornado.vercel.app/'
   },
   {
     title:"site",
     discription:"hello",
-    img:sty
+    img:sty,
+    link:'https://talesoftornado.vercel.app/'
   }
 ]
   return (
 <><div className="home">
             {sites.map((c) => {
                 return (
-                    <><a href='https://talesoftornado.vercel.app/' target='blank'>
+                    <>
                         <section className="text-gray-400 bg-gray-900 body-font">
                             <div className="container px-10 py-10 mx-auto">
                                 <div className="flex flex-wrap -m-4">
@@ -53,7 +58,7 @@ function Home() {
                                                 <h1 className="title-font text-lg font-medium text-white mb-3">{c.title}</h1>
                                                 <p className="leading-relaxed mb-3">{c.discription}</p>
                                                 <div className="flex items-center flex-wrap ">
-                                                    <Link to={'link'}><span className="text-indigo-400 inline-flex items-center md:mb-2 lg:mb-0">
+                                                    <Link to={c.link}><span className="text-indigo-400 inline-flex items-center md:mb-2 lg:mb-0">
                                                         Learn More
                                                         <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                                             <path d="M5 12h14"></path>
@@ -78,7 +83,6 @@ function Home() {
                                 </div>
                             </div>
                         </section>
-                        </a>
                     </>
                 )
             })}</div>
