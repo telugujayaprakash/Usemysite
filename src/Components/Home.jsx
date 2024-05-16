@@ -41,7 +41,7 @@ function Home() {
 <><div className="home">
             {sites.map((c) => {
                 return (
-                    <><a href='www.talesoftornado.vercel.app' target='blank'>
+                    <><a href='https://talesoftornado.vercel.app/' target='blank'>
                         <section className="text-gray-400 bg-gray-900 body-font">
                             <div className="container px-10 py-10 mx-auto">
                                 <div className="flex flex-wrap -m-4">
