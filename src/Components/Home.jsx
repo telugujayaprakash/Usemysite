@@ -9,7 +9,7 @@ function Home() {
     title:"site",
     discription:"hello",
     img:sty,
-    link:'https://talesoftornado.vercel.app/'
+    link:'https://storyconfessions.vercel.app/'
   },
   {
     title:"site",
